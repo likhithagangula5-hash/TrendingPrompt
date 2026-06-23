@@ -206,4 +206,6 @@ MIT © TrendingPrompt
 
 Built with ❤️ using **React**, **Gemini AI**, and **Tailwind CSS**
 
+**Author — [Gangula Likhitha](https://github.com/likhithagangula5-hash)**
+
 </div>
