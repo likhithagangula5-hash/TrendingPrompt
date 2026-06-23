@@ -1,0 +1,33 @@
+# ─── Environment Variables ──────────────────────────────────────────────────────
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.staging
+.env.staging.local
+
+# Keep the .env.example so others know what vars are needed
+!.env.example
+
+# ─── Dependencies ────────────────────────────────────────────────────────────────
+node_modules/
+
+# ─── Logs ────────────────────────────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── OS / Editor ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.swp

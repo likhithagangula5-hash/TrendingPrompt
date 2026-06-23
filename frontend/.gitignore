@@ -1,0 +1,53 @@
+# ─── Environment Variables ──────────────────────────────────────────────────────
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.staging
+.env.staging.local
+
+# Keep the .env.example so others know what vars are needed
+!.env.example
+
+# ─── Dependencies ────────────────────────────────────────────────────────────────
+node_modules/
+
+# ─── Build Outputs ───────────────────────────────────────────────────────────────
+dist/
+dist-ssr/
+
+# ─── Logs ────────────────────────────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+vite-dev.out.log
+vite-dev.err.log
+
+# ─── Testing / Coverage ──────────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+# ─── Cache ───────────────────────────────────────────────────────────────────────
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# ─── Editor directories and files ────────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
